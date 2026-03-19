@@ -7,7 +7,7 @@ import os
 import json
 
 app = Flask(__name__)
-CORS(app, origins=["https://<TU_USUARIO>.github.io", "http://localhost:3000", "http://127.0.0.1:5500"])
+CORS(app, origins=["https://andy8301.github.io", "http://localhost:3000", "http://127.0.0.1:5500"])
 
 SCOPES = [
     "https://www.googleapis.com/auth/spreadsheets",
